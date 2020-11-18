@@ -11,6 +11,7 @@ function ChartInvoices() {
         data: [	24932,	0,	0,	6500,	0,	0,	0,	0,	400,	0,	14000,	24000,	2650,	30000,	0,	0,	0,	0,	14000,	6500,	0,	0,	0,	0,	16000,	0,	0,	0,	0,	11800,	0	],
         borderColor: ['rgb(220, 85, 90'],
         pointBackgroundColor: 'rgba(220, 85, 90)',
+        fill: false
 
       },
 
@@ -19,6 +20,7 @@ function ChartInvoices() {
         data: [	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0	],
         borderColor: ['rgba(255, 180, 27, 0.5)'],
         pointBackgroundColor: 'rgba(255, 180, 27, 0.7)',
+        fill: false
       }
     ]
   }
