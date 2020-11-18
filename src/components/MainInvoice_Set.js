@@ -16,7 +16,7 @@ function Main() {
                     </select>
                 </form>
                 <div class="months">
-                    <ul className="lista1">
+                        <ul className="lista1">
                         <li><a href="/invoiceJan">jan</a></li>
                         <li><a href="/invoiceFev">fev</a></li>
                         <li><a href="/invoiceMar">mar</a></li>
@@ -37,31 +37,31 @@ function Main() {
 
 
             <div className="title1-box">
-                <p>Total Invoices 2020 (R$)</p>
+                <p>Total Invoices (R$)</p>
             </div>
             <div className="first-part">
                 <div className="box-one">
                     <p>Total Invoices</p>
-                    <h2>R$ 1.232.259,21</h2>
+                    <h2>R$ 338.422,08</h2>
                 </div>
-                {/* <div className="box-two">
+                {/* <div className="box-three">
                     <p>Total Pendentes</p>
-                    <h2>R$ 11.200</h2>
+                    <h2>R$ </h2>
                 </div> */}
                 <div className="box-two">
                     <p>Total Aprovados</p>
-                    <h2>R$ 18.678</h2>
+                    <h2> R$ 268.539,00</h2>
                 </div>
                 <div className="box-three">
                     <p>Total Cancelados</p>
-                    <h2>R$ 8.775</h2>
+                    <h2> R$ 69.883,00</h2>
                 </div>
             </div>
 
 
 
             <div className="title-box-2">
-                <p>Resumo Total Invoices 2020 (R$)</p>
+                <p>Resumo Total Invoices/Ano (R$)</p>
             </div>
             <div className="secound-part">
                 <div className="grafico-1">
@@ -72,12 +72,12 @@ function Main() {
 
 
             <div className="title-box-3">
-                <p>Total Invoices 2020 (Qtd)</p>
+                <p>Total Invoices (Qtd)</p>
             </div>
             <div className="first-part-2">
             <div className="box-one-2">
                     <p>Total Invoices</p>
-                    <h2>120</h2>
+                    <h2>27</h2>
                 </div>
                 {/* <div className="box-two-2">
                     <p>Total Pendentes</p>
@@ -85,11 +85,11 @@ function Main() {
                 </div> */}
                 <div className="box-two-2">
                     <p>Total Aprovados</p>
-                    <h2>95</h2>
+                    <h2>20</h2>
                 </div>
                 <div className="box-three-2">
                     <p>Total Cancelados</p>
-                    <h2>25</h2>
+                    <h2>7</h2>
                 </div>
             </div>
 
