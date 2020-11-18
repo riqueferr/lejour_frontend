@@ -1,5 +1,5 @@
 import React from 'react';
-import { Line } from 'react-chartjs-2';
+import { HorizontalBar } from 'react-chartjs-2';
 
 function ChartInvoices() {
   
@@ -24,7 +24,7 @@ function ChartInvoices() {
   }
 
   return (
-    <Line data={data} />
+    <HorizontalBar data={data} />
   );
 }
 
