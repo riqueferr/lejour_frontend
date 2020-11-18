@@ -1,5 +1,5 @@
 import React from 'react';
-import { HorizontalBar } from 'react-chartjs-2';
+import { Line } from 'react-chartjs-2';
 
 function ChartInvoices() {
   
@@ -11,6 +11,8 @@ function ChartInvoices() {
         data: [	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	8480,	0,	0,	0,	39545,	0,	0,	0,	0,	0,	0,	700,62,	0,	0,	21300,	0,	12000,	42000,	0	],
         borderColor: ['rgb(220, 85, 90'],
         pointBackgroundColor: 'rgba(220, 85, 90)',
+        fill: false
+
 
       },
 
@@ -19,12 +21,14 @@ function ChartInvoices() {
         data: [	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	0,	100,53,	0,	0,	0,	0,	0,	0,	0,	0	],
         borderColor: ['rgba(255, 180, 27, 0.5)'],
         pointBackgroundColor: 'rgba(255, 180, 27, 0.7)',
+        FILL: false
+
       }
     ]
   }
 
   return (
-    <HorizontalBar data={data} />
+    <Line data={data} />
   );
 }
 
