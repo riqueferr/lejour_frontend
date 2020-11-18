@@ -1,7 +1,7 @@
 import React from 'react';
-import GraphOne from './ChartWeedings';
+import GraphOne from './ChartAppointmentsAgo';
 
-function mainWeedings() {
+function Main() {
     return (
         <main>
         <div className="big-little-box">
@@ -37,43 +37,69 @@ function mainWeedings() {
 
 
             <div className="title1-box">
-                <p>Weddings Styles/Ano</p>
+                <p>Total Appointments (R$)</p>
             </div>
             <div className="first-part">
                 <div className="box-one">
-                    <p>Total Weddings</p>
-                    <h2>3.761</h2>
+                    <p>Total Appointments</p>
+                    <h2>R$ 35.750</h2>
                 </div>
                 <div className="box-two">
-                    <p>Total Clássico</p>
-                    <h2>2.221</h2>
+                    <p>Total Pendentes</p>
+                    <h2>R$ 11.200</h2>
                 </div>
                 <div className="box-three">
-                    <p>Total Rústico</p>
-                    <h2>1.258</h2>
+                    <p>Total Aprovados</p>
+                    <h2>R$ 18.678</h2>
                 </div>
                 <div className="box-four">
-                    <p>Total Moderno</p>
-                    <h2>282</h2>
+                    <p>Total Cancelados</p>
+                    <h2>R$ 8.775</h2>
                 </div>
             </div>
 
 
 
             <div className="title-box-2">
-                <p>Total Weddings Style/Ano %</p>
+                <p>Resumo Total Appointments/Ano (R$)</p>
             </div>
             <div className="secound-part">
                 <div className="grafico-1">
                     <GraphOne />
                 </div>
             </div>
+
+
+
+            <div className="title-box-3">
+                <p>Total Appointments (Qtd)</p>
+            </div>
+            <div className="first-part-2">
+                <div className="box-one-2">
+                    <p>Total Appointments</p>
+                    <h2>100</h2>
+                </div>
+                <div className="box-two-2">
+                    <p>Total Pendentes</p>
+                    <h2>20</h2>
+                </div>
+                <div className="box-three-2">
+                    <p>Total Aprovados</p>
+                    <h2>70</h2>
+                </div>
+                <div className="box-four-2">
+                    <p>Total Cancelados</p>
+                    <h2>10</h2>
+                </div>
+            </div>
+
+
         </div>
     </main>
     );
 }
 
-export default mainWeedings;
+export default Main;
 
 
 
