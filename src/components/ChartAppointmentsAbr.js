@@ -46,7 +46,7 @@ function ChartAppointments() {
       },
       {
         label: 'Appointments Cancelados',
-        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, 0, 15, 0, 0, 0, 19, 20, 21, 0, 23, 0, 0, 0, 0, 28, 0, 30],
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1, 0, 1, 0, 0, 0, 2, 2, 0, 1],
         borderColor: ['rgba(255, 180, 27, 0.5)'],
         pointBackgroundColor: 'rgba(255, 180, 27, 0.7)',
         backgroundColor: [
