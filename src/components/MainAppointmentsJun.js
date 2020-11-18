@@ -37,7 +37,7 @@ function Main() {
 
 
                 <div className="title1-box">
-                    <p>Total Appointments</p>
+                    <p>Total Appointments (Qtd) - Junho</p>
                 </div>
                 <div className="first-part">
                     <div className="box-one">
@@ -57,7 +57,7 @@ function Main() {
 
 
                 <div className="title-box-2">
-                    <p>Resumo Total Appointments/Ano</p>
+                    <p>KPI Appointments (Qtd) - Junho</p>
                 </div>
                 <div className="secound-part">
                     <div className="grafico-1">
@@ -68,7 +68,7 @@ function Main() {
 
 
                 <div className="title-box-3">
-                    <p>Total Appointments</p>
+                    <p>Total Appointments (Qtd) - Junho</p>
                 </div>
                 <div className="first-part-2">
                     <div className="box-one-2">
