@@ -15,7 +15,16 @@ import InvoiceJulPage from './screens/InvoiceJulPage';
 import InvoiceAgoPage from './screens/InvoiceAgoPage';
 import InvoiceSetPage from './screens/InvoiceSetPage';
 import InvoiceOutPage from './screens/InvoiceOutPage';
-
+import AppointmentsJanPage from './screens/AppointmentsJanPage';
+import AppointmentsFevPage from './screens/AppointmentsFevPage';
+import AppointmentsMarPage from './screens/AppointmentsMarPage';
+import AppointmentsAbrPage from './screens/AppointmentsAbrPage';
+import AppointmentsMaiPage from './screens/AppointmentsMaiPage';
+import AppointmentsJunPage from './screens/AppointmentsJunPage';
+import AppointmentsJulPage from './screens/AppointmentsJulPage';
+import AppointmentsAgoPage from './screens/AppointmentsAgoPage';
+import AppointmentsSetPage from './screens/AppointmentsSetPage';
+import AppointmentsOutPage from './screens/AppointmentsOutPage';
 
 
 function Routes() {
@@ -37,6 +46,17 @@ function Routes() {
                 <Route exact path='/invoiceAgo' component={InvoiceAgoPage} />
                 <Route exact path='/invoiceSet' component={InvoiceSetPage} />
                 <Route exact path='/invoiceOut' component={InvoiceOutPage} />
+                <Route exact path='/appointmentsJan' component={AppointmentsJanPage} />
+                <Route exact path='/appointmentsFev' component={AppointmentsFevPage} />
+                <Route exact path='/appointmentsMar' component={AppointmentsMarPage} />
+                <Route exact path='/appointmentsAbr' component={AppointmentsAbrPage} />
+                <Route exact path='/appointmentsMai' component={AppointmentsMaiPage} />
+                <Route exact path='/appointmentsJun' component={AppointmentsMaiPage} />
+                <Route exact path='/appointmentsJul' component={AppointmentsJunPage} />
+                <Route exact path='/appointmentsAgo' component={AppointmentsJulPage} />
+                <Route exact path='/appointmentsAgo' component={AppointmentsAgoPage} />
+                <Route exact path='/appointmentsAgo' component={AppointmentsSetPage} />
+                <Route exact path='/appointmentsAgo' component={AppointmentsOutPage} />
 
 
             </Switch>
