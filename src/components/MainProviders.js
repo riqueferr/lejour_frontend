@@ -42,20 +42,20 @@ function MainProviders() {
                 <div className="first-part-2">
                     <div className="box-one-2">
                         <p>Total Providers</p>
-                        <h2>100</h2>
+                        <h2>94</h2>
                     </div>
-                    <div className="box-two-2">
+                    {/* <div className="box-two-2">
                         <p>Total Pendentes</p>
                         <h2>20</h2>
-                    </div>
+                    </div> */}
                     <div className="box-three-2">
-                        <p>Total Aprovados</p>
-                        <h2>70</h2>
+                        <p>Provider mais escolhido (ID)</p>
+                        <h2>268</h2>
                     </div>
-                    <div className="box-four-2">
+                    {/* <div className="box-four-2">
                         <p>Total Cancelados</p>
                         <h2>10</h2>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="title-box-2">
