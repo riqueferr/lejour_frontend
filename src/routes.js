@@ -31,8 +31,8 @@ function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route exact path='/login' component={LoginPage} />
-                <Route exact path='/' component={InvoicesPage} />
+                <Route exact path='/' component={LoginPage} />
+                <Route exact path='/invoices' component={InvoicesPage} />
                 <Route exact path='/providers' component={ProvidersPage} />
                 <Route exact path='/appointments' component={AppointmentsPage} />
                 <Route exact path='/weddings' component={WeedingsPage} />
