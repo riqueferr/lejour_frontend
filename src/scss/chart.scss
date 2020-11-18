@@ -1,0 +1,27 @@
+
+  .grafico-1 {  
+    margin: 0 auto;
+    height: 100%;
+    width: 60%;
+    padding-top: 20px;
+  }
+  
+
+  @media only screen and (max-width: 1025px) {
+    .grafico-1 {  
+      margin: 0 auto;
+      height: 100%;
+      width: 80%;
+      padding-top: 20px;
+    }
+  }
+
+
+  @media only screen and (max-width: 723px) {
+    .grafico-1 {  
+      
+      height: 100%;
+      width: 99%;
+      padding-top: 100px;
+    }
+  }

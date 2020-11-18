@@ -1,0 +1,144 @@
+    
+  
+  body, html {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+  div.container {
+    display: flex;
+    overflow: hidden;
+    position: static;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(86deg, rgba(226,100,90,1) 0%, rgba(219,93,121,1) 100%);
+  }
+  
+  
+  div.caixa {
+    background-color: white;
+    border-radius: 20px;
+    width: 370px;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 0px 2px 21px 1px rgba(48,48,48,0.45); 
+  box-shadow: 0px 2px 21px 1px rgba(48,48,48,0.45);
+  }
+  
+  
+  .caixa img {
+    width: 200px;
+    margin: 10px 0 40px;
+    margin-bottom: 50px;
+  }
+  
+  
+  div.form input {
+    font-family: 'Lato', sans-serif;
+    flex: 1;
+    height: 40px;
+    width: 280px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    color: #777;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  
+  
+  ::-webkit-input-placeholder{
+  font-family: 'Lato', sans-serif;
+  color: #999;
+  }
+  
+  
+  form input:focus {
+    border: solid 1px #e2645a;
+    color: #e2645a;
+    outline: none;
+  }
+  
+  
+  button {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 18px;
+    background: #68BFB7;
+    height: 42px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 48px;
+    width: 100%;
+    cursor: pointer;
+    background-size: 200% auto;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #3eaca3 0%, #67bfb7 51%, #3eaca3 100%)
+  }
+  
+  
+  button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  
+  /* MOBILE */
+  
+  @media (max-width: 280px) {
+  div.caixa {
+    width: 240px;
+  }
+
+  div.form input {
+    height: 40px;
+    width: 220px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    color: #777;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+}
+
+@media (max-width: 322px) {
+  div.caixa {
+    width: 290px;
+  }
+
+  div.form input {
+    height: 40px;
+    width: 220px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    color: #777;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+}
+
+@media (max-width: 415px) {
+  div.caixa {
+    width: 290px;
+  }
+
+  div.form input {
+    height: 40px;
+    width: 220px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    color: #777;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+}

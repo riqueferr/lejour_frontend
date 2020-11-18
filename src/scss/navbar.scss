@@ -1,0 +1,181 @@
+@media only screen and (max-width: 4500px) {
+
+    .navbar {
+        //* CONTAINER PRINCIPAL DA NAVBAR *//
+        width: 100%;
+        height: 55px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center; // Later
+        padding: 1.6rem -4.4rem; // Later
+        background-color: rgb(255, 255, 255);
+
+        box-shadow: 0px 2px 18px -5px rgba(0, 0, 0, 0.75);
+    }
+
+    .navbar p {
+        //* PARÁGRAFO "OVERVIEW" *//
+        position: absolute;
+        font-size: 23px;
+        z-index: 21;
+        margin-left: 260px;
+        font-size: 20px;
+        font-family: 'Merriweather', serif;
+        font-weight: 600;
+        color: #585858;
+    }
+
+    .lejour-icon img {
+        position: absolute;
+        left: 40px;
+        height: 75px;
+    }
+
+    .menu {
+        margin: 0 auto;
+    }
+
+    .menu ul {
+        list-style: none;
+
+    }
+
+    .menu ul li {
+        display: inline;
+    }
+
+    .menu ul li a {
+        padding: 10px 15px;
+        display: inline-block;
+        text-decoration: none;
+        color: #585858;
+        font-family: 'Merriweather', serif;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .menu ul li:hover {
+        display: inline;
+        font-family: 'Merriweather', serif;
+        font-weight: 700;
+    }
+
+    h3 {
+        //* "CEO LEJOUR" *//
+        position: absolute;
+        font-size: 12px;
+        right: 85px;
+        color: #585858;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .profile-icon {
+        //* ÍCONE CIRCULAR DE "PERFIL" *//
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: 40px;
+        border-radius: 50px;
+
+        border: 2px solid #E2645A;
+    }
+
+}
+
+
+
+//*   -------------------------------  INÍCIO DAS MEDIA QUERY -------------------------- *//
+
+
+
+
+//*   -------------------------------  850PX -------------------------- *//
+@media only screen and (max-width: 850px) {
+
+    .lejour-icon img {
+        position: absolute;
+        left: 0px;
+        height: 63px;
+    }
+
+    .menu {
+        margin-left: 30px;
+    }
+
+    .menu ul li a {
+        padding: 10px 15px;
+        display: inline-block;
+        text-decoration: none;
+        color: #585858;
+        font-family: 'Merriweather', serif;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+
+    h3 {
+        //* "CEO LEJOUR" *//
+        position: absolute;
+        font-size: 10px;
+        right: 74px;
+        color: #585858;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .profile-icon {
+        //* ÍCONE CIRCULAR DE "PERFIL" *//
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 40px;
+        border-radius: 50px;
+
+        border: 2px solid #E2645A;
+    }
+}
+
+
+
+//*   -------------------------------  585PX -------------------------- *//
+@media only screen and (max-width: 585px) {
+    .lejour-icon img {
+        position: absolute;
+        left: 5px;
+        height: 30px;
+        border-radius: 15px;
+        top: 10px;
+    }
+
+    .menu {
+        margin-left: -5px;
+    }
+
+    .menu ul li a {
+        padding: 10px 7px;
+        display: inline-block;
+        text-decoration: none;
+        color: #585858;
+        font-family: 'Merriweather', serif;
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+
+    h3 {
+        //* "CEO LEJOUR" *//
+        position: absolute;
+        font-size: 0px;
+        bottom: 0;
+        color: #ffffff;
+    }
+
+    .profile-icon {
+        //* ÍCONE CIRCULAR DE "PERFIL" *//
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        right: 5px;
+        border-radius: 50px;
+        background-color: rgb(168, 168, 168);
+        border: 2px solid #E2645A;
+    }
+} 
