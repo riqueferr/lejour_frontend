@@ -36,41 +36,6 @@ function MainProviders() {
                 </div>
 
 
-                <div className="title1-box">
-                    <p>Total Providers (R$)</p>
-                </div>
-                <div className="first-part">
-                    <div className="box-one">
-                        <p>Total Providers</p>
-                        <h2>R$ 35.750</h2>
-                    </div>
-                    <div className="box-two">
-                        <p>Total Pendentes</p>
-                        <h2>R$ 11.200</h2>
-                    </div>
-                    <div className="box-three">
-                        <p>Total Aprovados</p>
-                        <h2>R$ 18.678</h2>
-                    </div>
-                    <div className="box-four">
-                        <p>Total Cancelados</p>
-                        <h2>R$ 8.775</h2>
-                    </div>
-                </div>
-
-
-
-                <div className="title-box-2">
-                    <p>Resumo Total Providers/Ano (R$)</p>
-                </div>
-                <div className="secound-part">
-                    <div className="grafico-1">
-                        <GraphOne />
-                    </div>
-                </div>
-
-
-
                 <div className="title-box-3">
                     <p>Total Providers (Qtd)</p>
                 </div>
@@ -93,7 +58,14 @@ function MainProviders() {
                     </div>
                 </div>
 
-
+                <div className="title-box-2">
+                    <p>Resumo Total Providers/Sem</p>
+                </div>
+                <div className="secound-part">
+                    <div className="grafico-1">
+                        <GraphOne />
+                    </div>
+                </div>
             </div>
         </main>
     );
