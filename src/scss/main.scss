@@ -8,6 +8,10 @@
 
 }
 
+.selecaoMenu {
+    background: #E2645A !important;
+}
+
 #year {
     //* FORM DO ANO 2020| 2019 | 2018 //
     padding: 4.5px;
@@ -545,6 +549,7 @@ main { //* CONTAINER PRINCIPAL ONDE TUDO ESTÁ DENTRO //
 
 
 
+
 //*   -------------------------------  INÍCIO  DAS MEDIAQUERY-------------------------- *//
 
 
@@ -1073,6 +1078,10 @@ main { //* CONTAINER PRINCIPAL ONDE TUDO ESTÁ DENTRO //
         font-weight: 600;
         color: #585858;
     }
+
+    .selecaoMenu {
+        background: #E2645A !important;
+    }
 }
 
 
@@ -1566,4 +1575,9 @@ main { //* CONTAINER PRINCIPAL ONDE TUDO ESTÁ DENTRO //
         padding-left: 20px;
         color: #4d4d4d;
     }
+
+    .selecaoMenu {
+        background: #E2645A !important;
+    }
+
 }

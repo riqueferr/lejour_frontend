@@ -16,22 +16,22 @@ function Main() {
                     </select>
                 </form>
                 <div class="months">
-                    <ul className="lista1">
-                        <li><a href="#">jan</a></li>
-                        <li><a href="#">fev</a></li>
-                        <li><a href="#">mar</a></li>
-                        <li><a href="#">abr</a></li>
-                        <li><a href="#">mai</a></li>
-                        <li><a href="#">jun</a></li>
-                    </ul>
-                    <ul className="lista2">
-                        <li><a href="#">jul</a></li>
-                        <li><a href="#">ago</a></li>
-                        <li><a href="#">set</a></li>
-                        <li><a href="#">out</a></li>
-                        <li><a href="#">nov</a></li>
-                        <li><a href="#">dez</a></li>
-                    </ul>
+                <ul className="lista1">
+                            <li><a href="/appointmentsJan">jan</a></li>
+                            <li><a href="/appointmentsFev">fev</a></li>
+                            <li><a href="/appointmentsMar">mar</a></li>
+                            <li><a href="/appointmentsAbr">abr</a></li>
+                            <li><a href="/appointmentsMai">mai</a></li>
+                            <li><a href="/appointmentsJun">jun</a></li>
+                        </ul>
+                        <ul className="lista2">
+                            <li><a href="/appointmentsJul">jul</a></li>
+                            <li><a href="/appointmentsAgo">ago</a></li>
+                            <li><a href="/appointmentsSet">set</a></li>
+                            <li><a href="/appointmentsOut">out</a></li>
+                            <li><a href="#">nov</a></li>
+                            <li><a href="#">dez</a></li>
+                        </ul>
                 </div>
             </div>
 
