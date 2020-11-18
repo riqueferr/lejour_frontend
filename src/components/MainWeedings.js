@@ -37,11 +37,11 @@ function mainWeedings() {
 
 
             <div className="title1-box">
-                <p>Total Weedings (R$)</p>
+                <p>Total Weddings (R$)</p>
             </div>
             <div className="first-part">
                 <div className="box-one">
-                    <p>Total Weedings</p>
+                    <p>Total Weddings</p>
                     <h2>R$ 35.750</h2>
                 </div>
                 <div className="box-two">
@@ -61,7 +61,7 @@ function mainWeedings() {
 
 
             <div className="title-box-2">
-                <p>Resumo Total Weedings/Ano (R$)</p>
+                <p>Resumo Total Weddings/Ano (R$)</p>
             </div>
             <div className="secound-part">
                 <div className="grafico-1">
@@ -72,11 +72,11 @@ function mainWeedings() {
 
 
             <div className="title-box-3">
-                <p>Total Weedings (Qtd)</p>
+                <p>Total Weddings (Qtd)</p>
             </div>
             <div className="first-part-2">
             <div className="box-one-2">
-                    <p>Total Weedings</p>
+                    <p>Total Weddings</p>
                     <h2>200</h2>
                 </div>
                 <div className="box-two-2">
