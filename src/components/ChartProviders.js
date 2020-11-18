@@ -6,7 +6,7 @@ const ChartProviders = () => {
       labels: ['Assessoria de Casamento', 'Buffet', 'Espaço', 'Foto e Filmagem', 'Lista de Presentes'],
       datasets: [{
           label: "Jan - Abr",
-          data: [1, 0, 11, 0, 0, 0, 0],
+          data: [16, 0, 37, 0, 0],
           fill: true,
           backgroundColor: 'rgba(255, 99, 132, 0.2)',
           borderColor: 'rgb(255, 99, 132)',
@@ -16,7 +16,7 @@ const ChartProviders = () => {
           pointHoverBorderColor: "rgb(255, 99, 132)"
         }, {
           label: "Jun - Dez",  
-          data: [12, 0, 25, 0, 0, 0, 0],
+          data: [79, 1, 160, 1, 2],
           fill: true,
           backgroundColor: "rgba(54, 162, 235, 0.2)",
           borderColor: 'rgb(54, 162, 235)',
