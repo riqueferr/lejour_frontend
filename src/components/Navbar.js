@@ -13,7 +13,7 @@ function Navbar() {
                         <img src={ LejourIcon } />
                     </div>
                     <ul>
-                        <li><a className="direct1" href="/">Invoices</a></li>
+                        <li><a className="direct1" href="/invoices">Invoices</a></li>
                         <li><a className="direct1" href="/appointments">Appointments</a></li>
                         <li><a className="direct1" href="/weddings">Weddings</a></li>
                         <li><a className="direct1" href="/providers">Providers</a></li>
