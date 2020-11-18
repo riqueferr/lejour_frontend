@@ -51,12 +51,11 @@ function Routes() {
                 <Route exact path='/appointmentsMar' component={AppointmentsMarPage} />
                 <Route exact path='/appointmentsAbr' component={AppointmentsAbrPage} />
                 <Route exact path='/appointmentsMai' component={AppointmentsMaiPage} />
-                <Route exact path='/appointmentsJun' component={AppointmentsMaiPage} />
-                <Route exact path='/appointmentsJul' component={AppointmentsJunPage} />
-                <Route exact path='/appointmentsAgo' component={AppointmentsJulPage} />
+                <Route exact path='/appointmentsJun' component={AppointmentsJunPage} />
+                <Route exact path='/appointmentsJul' component={AppointmentsJulPage} />
                 <Route exact path='/appointmentsAgo' component={AppointmentsAgoPage} />
-                <Route exact path='/appointmentsAgo' component={AppointmentsSetPage} />
-                <Route exact path='/appointmentsAgo' component={AppointmentsOutPage} />
+                <Route exact path='/appointmentsSet' component={AppointmentsSetPage} />
+                <Route exact path='/appointmentsOut' component={AppointmentsOutPage} />
 
 
             </Switch>
