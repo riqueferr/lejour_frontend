@@ -11,7 +11,6 @@ function ChartInvoices() {
         data: [35750, 11200, 18678, 8775, 5982, 10983, 17821, 15982, 22983, 13983, 30983, 37983],
         borderColor: ['rgb(220, 85, 90'],
         pointBackgroundColor: 'rgba(220, 85, 90)',
-
       },
 
       {
