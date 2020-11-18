@@ -37,7 +37,7 @@ function MainProviders() {
 
 
                 <div className="title-box-3">
-                    <p>Total Providers (Qtd)</p>
+                    <p>Total Providers (Qtd) - 2020</p>
                 </div>
                 <div className="first-part-2">
                     <div className="box-one-2">
@@ -59,7 +59,7 @@ function MainProviders() {
                 </div>
 
                 <div className="title-box-2">
-                    <p>Resumo Total Providers/Sem</p>
+                    <p>KPI Category Providers - 2020</p>
                 </div>
                 <div className="secound-part">
                     <div className="grafico-1">

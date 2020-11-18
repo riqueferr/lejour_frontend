@@ -37,7 +37,7 @@ function mainWeedings() {
 
 
             <div className="title1-box">
-                <p>Weddings Styles/Ano</p>
+                <p>Weddings Styles - 2020</p>
             </div>
             <div className="first-part">
                 <div className="box-one">
@@ -61,7 +61,7 @@ function mainWeedings() {
 
 
             <div className="title-box-2">
-                <p>Total Weddings Style/Ano %</p>
+                <p>KPI Weddings Style  (%) - 2020</p>
             </div>
             <div className="secound-part">
                 <div className="grafico-1">
