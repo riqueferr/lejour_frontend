@@ -7,18 +7,22 @@ function ChartInvoices() {
     labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
     datasets: [
       {
-        label: 'Total 2020 (R$ Mil)',
-        data: [35750, 11200, 18678, 8775, 5982, 10983, 17821, 15982, 22983, 13983, 30983, 37983],
+        label: 'Invoices Concluídos',
+        data: [124025,	209222,	150782,	79027,	120226,	122111,	60112,	15000,	86583,	79239 ],
         borderColor: ['rgb(220, 85, 90'],
         pointBackgroundColor: 'rgba(220, 85, 90)',
+        fill: false
+
 
       },
 
       {
-        label: 'Total 2019 (R$ Mil)',
-        data: [23750, 8200, 12678, 3775, 4982, 7983, 14821, 12982, 17983, 10983, 25983, 30983],
+        label: 'Invoices Cancelados',
+        data: [100,	1500,	0,	0,	4220,	50010,	77350,	8000,	29550,	15200],
         borderColor: ['rgba(255, 180, 27, 0.5)'],
         pointBackgroundColor: 'rgba(255, 180, 27, 0.7)',
+        fill: false
+
       }
     ]
   }
