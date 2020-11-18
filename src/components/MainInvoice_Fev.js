@@ -1,5 +1,5 @@
 import React from 'react';
-import GraphOne from './ChartInvoices';
+import GraphOne from './ChartInvoicesFev';
 
 function Main() {
     return (
