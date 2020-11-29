@@ -9,3 +9,4 @@
 **ChartJS:** yarn add react-chartjs-2 chart.js<br>
 **React Router Dom:** npm install react-router-dom --save
 
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=lejour_frontend)
